@@ -1,10 +1,10 @@
-##Step 1
-Go to .env file set your credentials including microsoft
+## Step 1
+Go to the `.env` file and set your credentials, including Microsoft.
 
-##Step 2
-Go to terminal run:
-  "go run cmd/migration/main.go"
+---
 
-##Step 3 
-then run:
-  "cmd/api/main.go"
+## Step 2
+Go to the terminal and run:
+
+```bash
+go run cmd/migration/main.go
