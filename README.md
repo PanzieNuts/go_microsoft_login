@@ -33,3 +33,17 @@ Open your browser and visit the following URL to trigger the Microsoft login:
 http://localhost:8000/auth/microsoft
 ```
 This should bring up the Microsoft login page for authentication.
+
+
+**Note:**  
+Make sure to set the `REDIRECT_URL` in Microsoft Azure under the **Redirect URIs** section.
+
+Follow these steps:
+1. Go to **Authentication** in the Azure portal.
+2. Under **Platform Configurations**, click **Add a platform**.
+3. Choose **Web** as the platform.
+4. Enter the `REDIRECT_URL` (e.g., `http://localhost:8000/auth/microsoft/callback`).
+5. Save your configuration.
+
+This will ensure that your Microsoft authentication works properly.
+
