@@ -1,4 +1,4 @@
-# **Step 1
+#**Step 1
 Go to .env file set your credentials including microsoft
 
 # **Step 2
