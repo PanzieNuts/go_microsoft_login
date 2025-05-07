@@ -1,3 +1,7 @@
+##Step 2
+```bash
+go run cmd/migration/main.go
+
 ## Step 1
 Go to the `.env` file and set your credentials, including Microsoft:
 
@@ -13,5 +17,3 @@ CLIENT_SECRET=your_client_id_secret
 REDIRECT_URL=http://localhost:8000/auth/microsoft/callback
 TENANT_ID=your_tenant_id
 JWT_SECRET=your_jwt_secret
----
-##step
