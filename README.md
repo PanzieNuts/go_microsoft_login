@@ -14,10 +14,3 @@ REDIRECT_URL=http://localhost:8000/auth/microsoft/callback
 TENANT_ID=your_tenant_id
 JWT_SECRET=your_jwt_secret
 
----
-
-## Step 2
-Go to the terminal and run:
-
-```bash
-go run cmd/migration/main.go
